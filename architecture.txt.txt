@@ -1,0 +1,19 @@
+OVERVIEW
+->A simple java program for the demonstration of urldatabase.It allows store, retrieve and monitoring the usage of the urls.
+
+DESIGN
+->A class named Database with url,shortkey and usage created .Getters and setters are given to these variables for the data hiding.
+
+->Another class with database is created with a List of type Database.In this class all list operations are defined. All functionlities of the program is defined in this class.
+
+->Atlast a main class for menu driven interface.Not any operations are done in main class.Main class only calling the fuction created by the list class;
+
+
+
+
+
+	MODEL CLASS|    LIST CLASS      | MAIN
+-------------------|--------------------|-------------------
+Short key,Url	   |All functions of 	|Menu driven interface.
+usage count,	   |the commands are	|Calling functions of 
+Getters and Setters|implemented		|previous classes
